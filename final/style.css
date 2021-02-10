@@ -1,0 +1,321 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Gilroy', sans-serif;
+}
+img {
+    display: block;
+    width: 100%;
+}
+a {
+    color: inherit;
+}
+.container {
+    width: 940px;
+    margin: auto;
+}
+.header-top {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 1200px;
+    padding-top: 50px;
+
+}
+.header-blog {
+    background: url('img/header-bg.png') center center/cover no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    padding: 50px 0;
+    margin-top: 50px;
+}
+.title {
+    font-size: 44px;
+    text-align: center;
+    margin-top: 0;
+}
+.subtitle {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+
+}
+.input-wraper {
+    position: relative;
+    margin-top: 50px;
+
+}
+.search-form {
+    width: 100%;
+    padding: 20px 0 20px 70px;
+    background: #F4F4F4;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    background: #F4F4F4;
+    outline: none;
+}
+.loup-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+.first {
+    padding: 60px 0 0 0;
+}
+.lable {
+    color: #356EAD;
+    font-weight: 600;
+}
+.popular-wrap {
+    margin-top: 30px;
+}
+.popular-cards {
+    display: flex;
+    justify-content: space-between;
+}
+.popular-card {
+    width: 380px;
+}
+.popular-card h3 {
+    color:  #1F3F68;
+    font-size: 46px;
+    margin: 0;
+
+}
+.popular-card-text {
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    opacity: 0.6;
+    margin-top: 30px;
+
+}
+.card-bottom {
+    display: flex;
+    margin-top: 70px;
+
+}
+.samatha {
+    color: #1F3F68;
+    font-size: 14px;
+
+}
+.may {
+    color: #1F3F68;
+    opacity: 0.4;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.icons {
+    display: flex;
+    margin-left: 100px;
+}
+
+.icons .icon-img-2 {
+    margin-left: 40px;
+}
+.cards-wrap {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.cards-wrap .popular-card{
+    width: 300px;
+}
+.cards-wrap .popular-card h3 {
+    font-size: 23px;
+    margin-top: 15px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+
+
+}
+.sel {
+    text-align: right;
+    margin-top: 50px;
+    color: #356EAD;
+    text-transform: uppercase;
+
+}
+.line {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+.second {
+    padding-top: 50px;
+}
+.second-wrap {
+    margin-top: 30px;
+}
+.second-item-card {
+    display: flex;
+}
+.second-item-card-text {
+    margin-left: 20px;
+}
+.second-item-card-text .second-title {
+    font-size: 26px;
+    color: #1F3F68;
+    margin: 0;
+
+}
+.second-item-card-text .second-subtitle {
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.6);
+    letter-spacing: 0.04em;
+    width: 540px;
+    margin-top: 15px;
+}
+.second-item-card-text-bottom {
+    margin-top: 15px;
+    display: flex;
+}
+.second-item-card-text-bottom .smath {
+    color: #1F3F68;
+    font-size: 14px;
+}
+.second-item-card-text-bottom .may {
+    margin-top: 10px;
+}
+.icons-bottom {
+    display: flex;
+    margin-left: 100px;
+}
+.icons-bottom  .icon-img-2 {
+    margin-left: 40px;
+}
+.second-item-card + .second-item-card {
+    margin-top: 30px;
+}
+.posts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+    color: #356EAD;
+
+}
+.post-wrap {
+    display: flex;
+    align-items: center;
+}
+.post {
+    margin-left: 15px;
+}
+.old-wrap {
+    display: flex;
+    margin-right: 15px;
+    align-items: center;
+}
+footer {
+    color: #fff;
+    padding-right: 90px;
+}
+
+.footer-center {
+    margin-top: 120px;
+    background: #316099;
+    border-radius: 0px 200px 0px 0px;
+    padding-top: 55px;
+}
+.footer-center-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 95px;
+}
+.footer-center-text {
+    width: 460PX;
+}
+.footer-center-text-title h3 {
+    font-size: 36px;
+    width: 320px;
+    font-weight: 500;
+}
+.footer-center-text-subtitle {
+    line-height: 26px;
+    letter-spacing: 0.05em;
+
+    opacity: 0.6;
+}
+.footer-btn {
+    width: 220px;
+    height: 50px;
+    line-height: 50px;
+    background: #5A98D0;
+    border-radius: 10px;
+    text-align: center;
+}
+.line {
+    height: 1px;
+    width: 1373px;
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;;
+}
+.footer-bottom {
+    padding: 100px 0 65px 0;
+}
+.footer-bottm-block {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+.afrianska {
+    display: flex;
+}
+.afrianska img {
+    width: 40px;
+}
+.afrianska h3 {
+    font-size: 26px;
+    font-weight: 500;
+    padding-left: 15px;
+}
+.lorem {
+    display: flex;
+    width: 300px;
+    line-height: 26px;
+}
+.lorem .lorem-text {
+    margin-left: 15px;
+}
+.number {
+    display: flex;
+    margin-top: 25px;
+    
+}
+.number .phone {
+    margin-left: 15px;
+}
+.email {
+    display: flex;
+    margin-top: 25px;
+}
+.email .mail {
+    margin-left: 15px;
+}
+.about h3 {
+    font-weight: 600;
+
+}
+.follow h3 {
+    font-weight: 600;
+}
+.footer-bottm-block nav {
+    margin-top: 30px;
+}
+.nav{
+    list-style-type: none;
+    padding: 0;
+}
+li + li {
+    margin-top: 15px;
+}
+.age {
+    opacity: 0.4;
+    margin-top: 60px;
+}
